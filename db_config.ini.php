@@ -1,10 +1,10 @@
 ;<?php
 ;die()
-;/*############# /home/planeton/public_html/SCAPE/registry/db_config.ini.php ###############
+;/*############# /home/dir/public_html/namespace/registry/db_config.ini.php ###############
 [db]
-username=planeton_narayan
-password=Narayan123
-dbname=planeton_maindb
+username=username
+password=password
+dbname=maindbname
 [dsn]
 driver=mysql
 host=localhost
