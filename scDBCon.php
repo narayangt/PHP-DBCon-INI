@@ -107,7 +107,7 @@ final class DBCon
     /**
      * @param mixed $username
      */
-    public function setUsername($username="planeton_narayan")
+    public function setUsername($username="username")
     {
         $this->fp->setContent("db","username",$username);
     }
@@ -123,7 +123,7 @@ final class DBCon
     /**
      * @param mixed $password
      */
-    public function setPassword($password="Narayan123")
+    public function setPassword($password="password")
     {
         $this->fp->setContent("db","password",$password);
     }
@@ -137,7 +137,7 @@ final class DBCon
     /**
      * @param mixed $dbName
      */
-    public function setDbName($dbName="planeton_maindb"){
+    public function setDbName($dbName="maindb"){
         $this->fp->setContent("db","dbname",$dbName);
     }
     /**
